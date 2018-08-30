@@ -8,8 +8,8 @@ Gimbal.tauroll=0.01;
 Gimbal.tautilt=0.005;
 cameraThickness=0.15;
 
-Gimbal.control.P=0.5;
-Gimbal.control.D=0.01;
+Gimbal.control.P=1.5;
+Gimbal.control.D=1;
 Gimbal.control.I=0.01;
 
 %Coordenadas de la camara

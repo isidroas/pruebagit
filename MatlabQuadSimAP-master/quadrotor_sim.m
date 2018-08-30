@@ -60,8 +60,8 @@ while Quad.t_plot(Quad.counter-1)< max(Quad.t_plot);
         plot_quad 
         GimbalPlot;
         
-%         campos([A.X+2 A.Y+2 A.Z+2])
-%         camtarget([A.X A.Y A.Z])
+         campos([10 20 10])
+         camtarget([1 0 1])
 %         camroll(0);
         Quad.counter;
         drawnow
@@ -71,4 +71,4 @@ while Quad.t_plot(Quad.counter-1)< max(Quad.t_plot);
 end
 
 %% Plot Data
-plot_data
+%plot_data
